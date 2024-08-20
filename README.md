@@ -1,5 +1,33 @@
 # Télé-Informatique et Réseau
-4. Les applications pouvant s'interconnectées entre eux :
+
+Le **réseau informatique** est l'interconnection d'équipement informatiques
+dans le but d'échanger des informations, de partager des resources
+et d'améliorer les performances de l'ensemble.
+
+#### 1. Les types d'ordinateurs connectés
+Dans un réseaux informatique, on peut distinguer des ordinateurs qualifiés
+de *client* (ou poste de travail) et des ordinateurs qualifiés de *serveur*.
+Ces dernières sont chargés de recevoir et de traiter des requêtes envoyées
+par les *clients*. Les serveurs sont généralement des ordinateurs puissants
+afin de disposer de la puissance nécessaire pour gérer dynamiquement
+et rapidement toutes les requêtes provenant des postes de travail appartenant
+au réseau ainsi établit.
+
+
+#### 2. Les types de réseaux
+- Les réseaux **peer to peer** ou (poste à poste ou encore point à point)
+sont de petits réseaux ne nécessitant pas la présence d'un serveur.
+Dans ce genre de réseau, les ordinateurs connectés sont à la fois *clients
+et serveur*. Chaque ordinateur est donc serveur des ressources dont-il dispose
+pour servir un autre ordinateur qui en ce moment, joue le rôle de client.
+
+- Les réseaux lourds ou architecture client/serveur sont de grands réseaux
+dans lesquels on note la présence d'un serveur pour la gestion des ressources
+disponibles dans le réseau et de leurs droits d'accès et la présence de clients
+pour accéder et utiliser ces ressources.
+
+
+#### 4. Les applications pouvant s'interconnectées entre eux
 
 - Jeux en réseau;
 - Le partage de fichier (Xender, ES explorer, etc...);
@@ -7,7 +35,7 @@
 - Partage de connexion internet;
 - Partage de périphériques.
 
-5. Les types de serveurs : 
+#### 5. Les types de serveurs
 
 - Serveur d'application;
 - Serveur d'imprimente;
@@ -15,7 +43,7 @@
 - Serveur de fichiers;
 - Serveur web.
 
-6. La pair torsadée (Twisted Pair)
+#### 6. La pair torsadée (Twisted Pair)
 
 C'est un support de transmition filaire pour relier divers appareils
 dans un réseau informatique. Ils existent sous deux formes :
@@ -48,6 +76,9 @@ est disponible en cinq (05) catégories :
 - Catégorie 3 (Réseau informatique) $10$ Mb/s;
 - Catégorie 4 (Réseau informatique) $16$ Mb/s;
 - Catégorie 5 (Réseau informatique) $100$ Mb/s, $1$ Gb/s.
+
+
+
 
 
 
