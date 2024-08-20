@@ -92,6 +92,30 @@ est disponible en cinq (05) catégories :
 - Catégorie 5 (Réseau informatique) $100$ Mb/s, $1$ Gb/s.
 
 
+#### 7. Câble coaxial
+Encore appelé câble Ethernet, c'est un câble résistant qui a la même structure
+qu'un câble d'antenne de télévision. Il est un peu plus coûteux que la pair
+torsadée. Le seul inconvenient, c'est qu'il a un faible débit. Un débit
+qui ne dépasse pas les $10$ Mb/s. On distingue deux types de câble coaxial :
+
+- Le câble coaxial fin (Thin Ethernet) : C'est un câble dont la couleur
+est souvent **noire**. Le port de connexion de ce câble est le **RG-58 U**
+et est utilisé avec le connecteur **BNC** en I ou en T. Ce câble couvre
+une distance maximale de **185m**.
+
+<div align="center">
+
+![](./images/cable_coaxial.jpg)
+
+</div>
+
+- Le câble coaxial gros (Think Ethernet) : Surnommé *yellow snake*,
+c'est un câble dont la couleur est souvent **jaune**. Il est gros
+et son port de connexion est le **RG-11**. Ce câble couvre
+une distance maximale de **500m**.
+
+
+
 
 
 
