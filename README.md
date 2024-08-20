@@ -104,9 +104,7 @@ et est utilisé avec le connecteur **BNC** en I ou en T. Ce câble couvre
 une distance maximale de **185m**.
 
 <div align="center">
-
-![](./images/cable_coaxial.jpg)
-
+    <img src="./images/cable_coaxial.jpg" width="40%" height="40%" />
 </div>
 
 - Le câble coaxial gros (Think Ethernet) : Surnommé *yellow snake*,
