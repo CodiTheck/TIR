@@ -4,6 +4,7 @@ Le **réseau informatique** est l'interconnection d'équipement informatiques
 dans le but d'échanger des informations, de partager des resources
 et d'améliorer les performances de l'ensemble.
 
+
 #### 1. Les types d'ordinateurs connectés
 Dans un réseaux informatique, on peut distinguer des ordinateurs qualifiés
 de *client* (ou poste de travail) et des ordinateurs qualifiés de *serveur*.
@@ -21,10 +22,23 @@ Dans ce genre de réseau, les ordinateurs connectés sont à la fois *clients
 et serveur*. Chaque ordinateur est donc serveur des ressources dont-il dispose
 pour servir un autre ordinateur qui en ce moment, joue le rôle de client.
 
-- Les réseaux lourds ou architecture client/serveur sont de grands réseaux
-dans lesquels on note la présence d'un serveur pour la gestion des ressources
-disponibles dans le réseau et de leurs droits d'accès et la présence de clients
-pour accéder et utiliser ces ressources.
+- Les réseaux **lourds** ou architecture **client/serveur** sont de grands
+réseaux
+dans lesquels on note : la présence d'un serveur pour la gestion des ressources
+disponibles dans le réseau et de leurs droits d'accès; et la présence
+de clients pour accéder et utiliser ces ressources.
+
+
+#### 3. Classification selon l'étendu
+- Réseaux locaux (LAN) *Local Area Network* : réseau d'appreils se trouvant
+dans un même bâtiments ou groupe de bâtiments proches.
+
+- Réseaux métropolitiens (MAN) *Metropolitan Area Network* : réseaux
+d'appareil couvrant un quartier ou groupe de quartier. Voire une ville tout
+entière.
+
+- Réseaux étendu (WAN) *Wide Area Network* : réseau s'étendant sur un pays,
+un continent etc...
 
 
 #### 4. Les applications pouvant s'interconnectées entre eux
