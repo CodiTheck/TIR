@@ -226,6 +226,16 @@ distances.
     <img src="./images/topologie_anneau.png" width="60%" height="60%" />
 </div>
 
+Dans une topologie en anneau, les ordinateurs ne sont pas systématiquement
+reliés en boucle directement. Ils peuvent être connectés à un équipement
+central appelé **MAU** (**M**ulti **A**ccess **U**nit) qui va gérer
+la communication entre les ordinateurs.
+
+Le rôle du MAU dans un réseau en anneau est :
+- Il permet de connecter plusieurs stations (ordinateur) à l'anneau;
+- Il alloue un "temps de parole" à chaque station pour éviter les collisions;
+- Il gère la communication entre les stations en leur permettant d'émettre
+à tour de rôle.
 
 
 
