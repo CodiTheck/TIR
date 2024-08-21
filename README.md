@@ -129,15 +129,48 @@ Elle couvre une distance maximale de **$60$ Km**.
 - La fibre optique **multimode** (A gradient d'indice et à saut d'indice) :
 Conçue pour transmettre des signaux avec plusieurs chemins de lumière.
 Ce qui est idéal pour des distances plus courtes.
-Elle couvre donc une distance maximale de **$1$ Km**.
+Elle couvre donc une distance maximale de $\bf{1}$ **Km**.
 
 Les connecteurs utilisés pour la fibre optique sont le connecteur
 **ST** et **SC**.
 
 
 ### 9. Les liaisons sans fil
+On distingue plusieurs types de liaisons sans fil :
 
+- L'**infrarouge** (IrDA) : est une méthode de communication sans fil
+qui utilise des rayonnements infrarouges pour transmettre des données.
+Les signaux infrarouges ne traversent pas les murs. La lumière infrarouge
+permet
+de transmettre une grande quantité d'informations rapidement, ce qui est idéal
+pour des applications nécessitant des débits élevés. Mais son débit est limité
+à $115$ Kb/s. L'émétteur et le récepteur sont disposés face à face
+pour correctement faire circuler le signal.
 
+- Le **bluetooth** est une technologie de communication sans fil
+qui permet l'échange de données entre des appareils sur de courtes distances.
+Il permet de connecter divers appareils, tels que des smartphones,
+des ordinateurs, des casques audio, et des imprimantes, sans nécessiter
+de câbles physiques. Son débit de transmission est de $75$Kb/s à $1$Mb/s
+avec une distance maximale de $100$m.
+
+- Les **faisseaux herziens**
+
+- Le **wifi**
+
+#### Mode infrastructure et Adhoc
+Dans un réseau sans fil, le mode infrastructure nécessite un point d'accès
+(AP) central qui contrôle la communication entre les appareils. Dans ce mode,
+les appareils communiquent via le point d'accès, pas directement entre eux.
+Ce mode est largement utilisé, notamment dans les lieux publics
+comme les aéroports et les hôtels.
+
+Tandis que, le mode Adhoc permet une communication directe entre les appareils
+sans point d'accès central. Il est idéal pour des connexions temporaires
+entre quelques appareils.
+
+> Certains appareils ne supportent pas le mode adhoc et ne peuvent
+se connecter qu'en mode infrastructure.
 
 
 
