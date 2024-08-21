@@ -124,12 +124,12 @@ Il exists deux (02) types de fibre optique :
 
 - La fibre optique **monomode** : Conçue pour transmettre des signaux
 sur de longues distances avec un seul chemin (canal) de lumière.
-Elle couvre une distance maximale de **$60$ Km**.
+Elle couvre une distance maximale de **60Km**.
 
 - La fibre optique **multimode** (A gradient d'indice et à saut d'indice) :
 Conçue pour transmettre des signaux avec plusieurs chemins de lumière.
 Ce qui est idéal pour des distances plus courtes.
-Elle couvre donc une distance maximale de $\bf{1}$ **Km**.
+Elle couvre donc une distance maximale de **1Km**.
 
 Les connecteurs utilisés pour la fibre optique sont le connecteur
 **ST** et **SC**.
@@ -144,15 +144,15 @@ Les signaux infrarouges ne traversent pas les murs. La lumière infrarouge
 permet
 de transmettre une grande quantité d'informations rapidement, ce qui est idéal
 pour des applications nécessitant des débits élevés. Mais son débit est limité
-à $\bf{115}$ **Kb/s**. L'émétteur et le récepteur sont disposés face à face
+à **115Kb/s**. L'émétteur et le récepteur sont disposés face à face
 pour correctement faire circuler le signal.
 
 - Le **bluetooth** est une technologie de communication sans fil
 qui permet l'échange de données entre des appareils sur de courtes distances.
 Il permet de connecter divers appareils, tels que des smartphones,
 des ordinateurs, des casques audio, et des imprimantes, sans nécessiter
-de câbles physiques. Son débit de transmission est de $\bf{75}$ **Kb/s**
-à $\bf{1}$ **Mb/s** avec une distance maximale de $\bf{100}$ **m**.
+de câbles physiques. Son débit de transmission est de **75Kb/s**
+à **1Mb/s** avec une distance maximale de **100m**.
 
 - Les **faisseaux herziens**
 
