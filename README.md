@@ -5,7 +5,7 @@ dans le but d'échanger des informations, de partager des resources
 et d'améliorer les performances de l'ensemble.
 
 
-#### 1. Les types d'ordinateurs connectés
+### 1. Les types d'ordinateurs connectés
 Dans un réseaux informatique, on peut distinguer des ordinateurs qualifiés
 de *client* (ou poste de travail) et des ordinateurs qualifiés de *serveur*.
 Ces dernières sont chargés de recevoir et de traiter des requêtes envoyées
@@ -15,7 +15,7 @@ et rapidement toutes les requêtes provenant des postes de travail appartenant
 au réseau ainsi établit.
 
 
-#### 2. Les types de réseaux
+### 2. Les types de réseaux
 - Les réseaux **peer to peer** ou (poste à poste ou encore point à point)
 sont de petits réseaux ne nécessitant pas la présence d'un serveur.
 Dans ce genre de réseau, les ordinateurs connectés sont à la fois *clients
@@ -29,7 +29,7 @@ disponibles dans le réseau et de leurs droits d'accès; et la présence
 de clients pour accéder et utiliser ces ressources.
 
 
-#### 3. Classification selon l'étendu
+### 3. Classification des réseaux selon l'étendu
 - Réseaux locaux (LAN) *Local Area Network* : réseau d'appreils se trouvant
 dans un même bâtiments ou groupe de bâtiments proches.
 
@@ -41,7 +41,7 @@ entière.
 un continent etc...
 
 
-#### 4. Les applications pouvant s'interconnectées entre eux
+### 4. Les applications pouvant s'interconnectées entre eux
 
 - Jeux en réseau;
 - Le partage de fichier (Xender, ES explorer, etc...);
@@ -49,7 +49,7 @@ un continent etc...
 - Partage de connexion internet;
 - Partage de périphériques.
 
-#### 5. Les types de serveurs
+### 5. Les types de serveurs
 
 - Serveur d'application;
 - Serveur d'imprimente;
@@ -57,7 +57,7 @@ un continent etc...
 - Serveur de fichiers;
 - Serveur web.
 
-#### 6. La pair torsadée (Twisted Pair)
+### 6. La pair torsadée (Twisted Pair)
 
 C'est un support de transmition filaire pour relier divers appareils
 dans un réseau informatique. Ils existent sous deux formes :
@@ -92,7 +92,7 @@ est disponible en cinq (05) catégories :
 - Catégorie 5 (Réseau informatique) $100$ Mb/s, $1$ Gb/s.
 
 
-#### 7. Câble coaxial
+### 7. Câble coaxial
 Encore appelé câble Ethernet, c'est un câble résistant qui a la même structure
 qu'un câble d'antenne de télévision. Il est un peu plus coûteux que la pair
 torsadée. Le seul inconvenient, c'est qu'il a un faible débit. Un débit
@@ -111,6 +111,33 @@ une distance maximale de **185m**.
 c'est un câble dont la couleur est souvent **jaune**. Il est gros
 et son port de connexion est le **RG-11**. Ce câble couvre
 une distance maximale de **500m**.
+
+### 8. La fibre optique
+Il s'agit d'un câble permettant la transmission des données sur de longue
+distance sous forme d'impulsion lumineuse. Ces mêmes impulsions lumineuses
+sont converties en signal électrique au niveau des cartes réseaux pour divers
+traitements. L'avantage est que contrairement aux câbles en cuivre,
+la fibre optique est insensible aux interférences électromagnétiques.
+Ce qui permet une transmission plus fiable des données.
+Seulement que les fibres optiques sont très coûteux en argent.
+Il exists deux (02) types de fibre optique :
+
+- La fibre optique **monomode** : Conçue pour transmettre des signaux
+sur de longues distances avec un seul chemin (canal) de lumière.
+Elle couvre une distance maximale de **$60$ Km**.
+
+- La fibre optique **multimode** (A gradient d'indice et à saut d'indice) :
+Conçue pour transmettre des signaux avec plusieurs chemins de lumière.
+Ce qui est idéal pour des distances plus courtes.
+Elle couvre donc une distance maximale de **$1$ Km**.
+
+Les connecteurs utilisés pour la fibre optique sont le connecteur
+**ST** et **SC**.
+
+
+### 9. Les liaisons sans fil
+
+
 
 
 
