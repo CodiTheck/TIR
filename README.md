@@ -173,6 +173,24 @@ entre quelques appareils.
 se connecter qu'en mode infrastructure.
 
 
+### 10. Les topologie
+Elles sont sous deux formes. Nous avons les topologies physiques et logiques.
+Nous allons parler ici des topologies physiques. Les topologies physiques
+définissent la manière dont les différents composants du réseau sont reliés.
+
+- Les **topologie en bus** : Cette topologie, encore appelée bus linéaire,
+est montée en utilisant le câble coaxial avec des connecteurs BNC en I et en T
+pour raccorder les différents postes de travail. Notez qu'a chaque extrémité,
+on note la présence d'un **bouchon** ou **résistance de terminaison**.
+
+<div align="center">
+    <img src="./images/topologie_bus.png" width="100%" height="100%" />
+</div>
+
+
+
+
+
 
 
 
