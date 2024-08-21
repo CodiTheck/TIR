@@ -79,8 +79,8 @@ et un switch.
 - Le câble croisé : utilisé pour relier deux équipements de même nature, comme
 relier deux switchs, ou deux HUB ou deux ordinateurs entre eux.
 
-La distance maximale d'une pair torsadée non-blindée est de **100m** et celle
-d'une pair torsadée blindée est de **150m**.
+La distance maximale d'une pair torsadée non-blindée est de **100 m** et celle
+d'une pair torsadée blindée est de **150 m**.
 
 La pair torsadée est munie d'un connecteur de type RJ45. Ce connecteur
 est disponible en cinq (05) catégories :
@@ -101,7 +101,7 @@ qui ne dépasse pas les $10$ Mb/s. On distingue deux types de câble coaxial :
 - Le câble coaxial fin (Thin Ethernet) : C'est un câble dont la couleur
 est souvent **noire**. Le port de connexion de ce câble est le **RG-58 U**
 et est utilisé avec le connecteur **BNC** en I ou en T. Ce câble couvre
-une distance maximale de **185m**.
+une distance maximale de **185 m**.
 
 <div align="center">
     <img src="./images/cable_coaxial.jpg" width="40%" height="40%" />
@@ -110,7 +110,7 @@ une distance maximale de **185m**.
 - Le câble coaxial gros (Think Ethernet) : Surnommé *yellow snake*,
 c'est un câble dont la couleur est souvent **jaune**. Il est gros
 et son port de connexion est le **RG-11**. Ce câble couvre
-une distance maximale de **500m**.
+une distance maximale de **500 m**.
 
 ### 8. La fibre optique
 Il s'agit d'un câble permettant la transmission des données sur de longue
@@ -124,12 +124,12 @@ Il exists deux (02) types de fibre optique :
 
 - La fibre optique **monomode** : Conçue pour transmettre des signaux
 sur de longues distances avec un seul chemin (canal) de lumière.
-Elle couvre une distance maximale de **60Km**.
+Elle couvre une distance maximale de **60 Km**.
 
 - La fibre optique **multimode** (A gradient d'indice et à saut d'indice) :
 Conçue pour transmettre des signaux avec plusieurs chemins de lumière.
 Ce qui est idéal pour des distances plus courtes.
-Elle couvre donc une distance maximale de **1Km**.
+Elle couvre donc une distance maximale de **1 Km**.
 
 Les connecteurs utilisés pour la fibre optique sont le connecteur
 **ST** et **SC**.
@@ -144,15 +144,15 @@ Les signaux infrarouges ne traversent pas les murs. La lumière infrarouge
 permet
 de transmettre une grande quantité d'informations rapidement, ce qui est idéal
 pour des applications nécessitant des débits élevés. Mais son débit est limité
-à **115Kb/s**. L'émétteur et le récepteur sont disposés face à face
+à **115 Kb/s**. L'émétteur et le récepteur sont disposés face à face
 pour correctement faire circuler le signal.
 
 - Le **bluetooth** est une technologie de communication sans fil
 qui permet l'échange de données entre des appareils sur de courtes distances.
 Il permet de connecter divers appareils, tels que des smartphones,
 des ordinateurs, des casques audio, et des imprimantes, sans nécessiter
-de câbles physiques. Son débit de transmission est de **75Kb/s**
-à **1Mb/s** avec une distance maximale de **100m**.
+de câbles physiques. Son débit de transmission est de **75 Kb/s**
+à **1 Mb/s** avec une distance maximale de **100 m**.
 
 - Les **faisseaux herziens**
 
@@ -178,7 +178,8 @@ Elles sont sous deux formes. Nous avons les topologies physiques et logiques.
 Nous allons parler ici des topologies physiques. Les topologies physiques
 définissent la manière dont les différents composants du réseau sont reliés.
 
-- Les **topologie en bus** : Cette topologie, encore appelée bus linéaire,
+#### 10.1. Topologie en Bus
+Cette topologie, encore appelée bus linéaire,
 est montée en utilisant le câble coaxial avec des connecteurs BNC en I et en T
 pour raccorder les différents postes de travail. Notez qu'a chaque extrémité,
 on note la présence d'un **bouchon** ou **résistance de terminaison**.
@@ -187,8 +188,43 @@ on note la présence d'un **bouchon** ou **résistance de terminaison**.
     <img src="./images/topologie_bus.png" width="60%" height="60%" />
 </div>
 
+Les résistances de terminaison sont utilisées pour absorber tout signal
+arrivant à l'extrémité du câble afin d'éviter que le signal rebondis,
+c'est-à-dire empêcher que le signal à $t$ se retourne (**réflexion**)
+dans le réseaux pour pertuber le nouveau signal à $t + 1$.
 
+Notez que la résistance de terminaison doit avoir la même inpédance
+que celle du câble coaxial. Cette topologie a l'avantage d'être simple
+à réaliser. Mais, il ne peut se faire uniquement qu'avec le **câble coaxial**.
+De plus, la coupure d'un segment provoque la paralysie de tout le réseau.
 
+#### 10.2. Topologie en Anneau
+<!-- Cette topologie raccorde les différents poste de travail à un équipement
+central appelé **MAU** (**M**ulti **A**ccess **U**nit). -->
+Dans une topologie en anneau, les nœuds sont disposés de manière circulaire.
+Chaque nœud (ordinateur) est connecté à deux autres nœuds, ce qui crée
+une boucle continue.
+Les données circulent dans un sens unique
+(ou dans les deux sens dans certaines configurations) d'un nœud à l'autre.
+
+- Passage des Données : Lorsqu'un nœud souhaite envoyer des données,
+il les transmet au nœud suivant dans l'anneau. Chaque nœud reçoit les données,
+les interprète et les retransmet au nœud suivant jusqu'à ce qu'elles atteignent
+leur destination.
+
+- Jeton de Contrôle : Dans de nombreux réseaux en anneau, un mécanisme appelé
+**jeton** est utilisé. Seul le nœud qui détient le jeton peut envoyer
+des données, ce qui évite les collisions. Une fois les données transmises,
+le jeton est libéré et passe au nœud suivant, lui permettant d'envoyer
+ses propres données.
+
+- Régénération du Signal : Chaque nœud peut également régénérer le signal,
+ce qui permet de maintenir la qualité des données sur de plus longues
+distances.
+
+<div align="center">
+    <img src="./images/topologie_anneau.png" width="60%" height="60%" />
+</div>
 
 
 
