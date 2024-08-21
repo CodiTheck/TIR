@@ -144,15 +144,15 @@ Les signaux infrarouges ne traversent pas les murs. La lumière infrarouge
 permet
 de transmettre une grande quantité d'informations rapidement, ce qui est idéal
 pour des applications nécessitant des débits élevés. Mais son débit est limité
-à $115$ Kb/s. L'émétteur et le récepteur sont disposés face à face
+à $\bf{115}$ **Kb/s**. L'émétteur et le récepteur sont disposés face à face
 pour correctement faire circuler le signal.
 
 - Le **bluetooth** est une technologie de communication sans fil
 qui permet l'échange de données entre des appareils sur de courtes distances.
 Il permet de connecter divers appareils, tels que des smartphones,
 des ordinateurs, des casques audio, et des imprimantes, sans nécessiter
-de câbles physiques. Son débit de transmission est de $75$Kb/s à $1$Mb/s
-avec une distance maximale de $100$m.
+de câbles physiques. Son débit de transmission est de $\bf{75}$ **Kb/s**
+à $\bf{1}$ **Mb/s** avec une distance maximale de $\bf{100}$ **m**.
 
 - Les **faisseaux herziens**
 
