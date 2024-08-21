@@ -237,6 +237,28 @@ Le rôle du MAU dans un réseau en anneau est :
 - Il gère la communication entre les stations en leur permettant d'émettre
 à tour de rôle.
 
+#### 10.3. Topologie en Étoile
+<!-- Cette topologie relie les différents postes du réseau à un équipement central
+(Switch ou HUB). -->
+Dans une topologie en étoile, chaque appareil est relié individuellement
+au nœud central. Les données circulent de l'appareil source vers le nœud
+central, qui les redirige ensuite vers leur destination. Cette structure
+ressemble à une étoile, d'où son nom.
+
+- Émetteur et Récepteur : Lorsqu'un appareil souhaite envoyer des données
+à un autre, il les envoie d'abord au nœud central.
+- Routage : Le nœud central reçoit les données et les transmet au nœud
+de destination, ce qui permet une gestion efficace du trafic réseau.
+- Indépendance des Nœuds : Si un nœud tombe en panne, cela n'affecte
+pas le fonctionnement des autres nœuds, tant que le nœud central
+reste opérationnel.
+
+<div align="center">
+    <img src="./images/topologie_etoile.gif" width="60%" height="60%" />
+</div>
+
+
+
 
 
 
