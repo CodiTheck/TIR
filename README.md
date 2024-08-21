@@ -82,7 +82,7 @@ relier deux switchs, ou deux HUB ou deux ordinateurs entre eux.
 La distance maximale d'une pair torsadée non-blindée est de **100 m** et celle
 d'une pair torsadée blindée est de **150 m**.
 
-La pair torsadée est munie d'un connecteur de type RJ45. Ce connecteur
+La pair torsadée est munie d'un connecteur de type **RJ-45**. Ce connecteur
 est disponible en cinq (05) catégories :
 
 - Catégorie 1 (Téléphonie);
@@ -99,7 +99,7 @@ torsadée. Le seul inconvenient, c'est qu'il a un faible débit. Un débit
 qui ne dépasse pas les $10$ Mb/s. On distingue deux types de câble coaxial :
 
 - Le câble coaxial fin (Thin Ethernet) : C'est un câble dont la couleur
-est souvent **noire**. Le port de connexion de ce câble est le **RG-58 U**
+est souvent **noire**. Le port de connexion de ce câble est le **RJ-58 U**
 et est utilisé avec le connecteur **BNC** en I ou en T. Ce câble couvre
 une distance maximale de **185 m**.
 
@@ -109,8 +109,9 @@ une distance maximale de **185 m**.
 
 - Le câble coaxial gros (Think Ethernet) : Surnommé *yellow snake*,
 c'est un câble dont la couleur est souvent **jaune**. Il est gros
-et son port de connexion est le **RG-11**. Ce câble couvre
+et son port de connexion est le **RJ-11**. Ce câble couvre
 une distance maximale de **500 m**.
+
 
 ### 8. La fibre optique
 Il s'agit d'un câble permettant la transmission des données sur de longue
