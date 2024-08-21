@@ -241,7 +241,8 @@ Le rôle du MAU dans un réseau en anneau est :
 <!-- Cette topologie relie les différents postes du réseau à un équipement central
 (Switch ou HUB). -->
 Dans une topologie en étoile, chaque appareil est relié individuellement
-au nœud central. Les données circulent de l'appareil source vers le nœud
+au nœud central (Switch ou HUB). Les données circulent de l'appareil
+source vers le nœud
 central, qui les redirige ensuite vers leur destination. Cette structure
 ressemble à une étoile, d'où son nom.
 
@@ -256,6 +257,49 @@ reste opérationnel.
 <div align="center">
     <img src="./images/topologie_etoile.gif" width="60%" height="60%" />
 </div>
+
+
+#### 10.4. Topologie maillé
+Cette topologie est utilisée pour relier des routeurs entre eux. Le routeur
+est un équipement d'interconnection dont l'objectif est de trouver
+le chemin optimal, c'est à dire le chemin le plus court pour l'acheminement
+des paquets.
+
+Cette topologie a l'avantage d'offrir plusieurs cas possibles dans le câblage
+des équipements. Pour déterminer le nombre de liaison d'une topologie
+fortement maillée, s'il y a $n$ noeud(s), alors le nombre de liaison se calcule
+comme suit :
+
+$$
+N = \frac{n (n - 1)}{2}
+$$
+
+L'inconveniant de cette topologie, c'est qu'il y a trop de câbles; trop
+de cartes réseaux et donc très gourmande en équipement.
+
+Point essentiel à noter :
+
+- Dans les installations réseaux, la topologie la plus utilisée
+est celle en **étoile**. On utilise souvent la **pair torsadée**
+avec le connecteur **RJ-45**.
+
+- Un **concentrateur** ou **HUB** : est un équipement qui lorsqu'il reçoit
+une information d'un poste de travail (espéditeur), il la diffuse à toutes
+les autres poste de travails sans exception.
+
+- Un **Switch** ou **commutateur** : est un équipement qui lorsqu'il reçoit
+une information d'un poste de travail (espéditeur), il l'envoie uniquement
+à son destinataire.
+
+> Le commutateur est plus chère que le concentrateur.
+
+- Lorsqu'on parle de topologie *tout court*, sans préciser 
+(physique ou logique), il faut comprendre par défaut qu'on parle
+de la topologie physique.
+
+- Il est possible de combiner **plusieurs topologies**. Dans ce cas, on parle
+de **topologie mixte**. Les plus courantes sont : Anneau-étoilée, Bus-étoilée.
+
 
 
 
