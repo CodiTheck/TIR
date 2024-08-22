@@ -302,6 +302,49 @@ de la topologie physique.
 de **topologie mixte**. Les plus courantes sont : Anneau-étoilée, Bus-étoilée.
 
 
+### 11. Les méthodes d'accès ou topologies logiques
+Les méthodes d'accès définissent comment les informations sont arbitrées
+dans le réseau avec les postes de travail.
+
+- Les méthodes d'accès avec contention;
+- Les méthodes d'accès sans contention;
+
+### 12. Les grandes étapes du câblage
+- Repérer les supports de transmission à utiliser;
+- Trouver le ou les topologies à utiliser;
+- Repérage du cheminement des câbles;
+- L'utilisation des techniques de faux plancher et de faux plafonts;
+- Pose des câbles et raccordement des équipements;
+- L'étiquetage des câbles pour faciliter les maintenances;
+- Le local technique qui n'est rien d'autre qu'une armoir regroupant divers
+équipements (switch, HUB, Routeurs, etc...).
+
+Pour faire un bon câblage, il faut faire :
+- Le **câblage tertiaire** : liaison entre les pièces d'un immeuble;
+raccordement entre les ordinateurs d'une même salle (Back bone).
+- Le **câblage secondaire** : Liaison entre les étages d'un immeuble.
+- Le **câblage primaire** : Liaison entre les immeubles.
+
+
+### 13. Les protocoles
+Le protocole est l'ensemble des règles utilisées pour effectuer
+une communication. Il est à la base de toute communication entre les machines.
+Nous avons les protocoles suivants :
+
+- TCP/IP (**T**ransmission **C**ontrol **P**rotocol/**I**nternet **P**rotocol).
+- IPX/SPX : c'est un protocole routable.
+
+> Un protocole est routable lorsqu'il est en mesure de retrouver le chemin
+optimal dans des réseaux hétérogènes.
+
+Quelques informations utiles :
+
+- Les protocoles routables sont : TCP/IP, IPX/SPX. 
+- Les protocoles non routables sont : NetBEUI, NETBIOS.
+
+ 
+
+
 
 
 
