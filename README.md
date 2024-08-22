@@ -342,7 +342,61 @@ Quelques informations utiles :
 - Les protocoles routables sont : TCP/IP, IPX/SPX. 
 - Les protocoles non routables sont : NetBEUI, NETBIOS.
 
- 
+## 14. Le modèle OSI
+Le modèle **OSI** (**O**pen **S**tandard **I**nter-connection) a été mise
+en place par *ISO* (International Standard Organization) pour permettre
+à des stations hétérogènes de pouvoir se communiquer entre elles.
+Pour inter-connecter deux différentes stations, il faut utiliser le modèle OSI
+et le TCP/IP. Ces deux sont indispensables.
+
+Le modèle OSI est organisé en 07 couches qui sont :
+1. La couche physique;
+2. La couche liaison de données;
+3. La couche réseaux;
+4. La couche transport;
+5. La couche session;
+6. La couche présentation;
+7. La couche application.
+
+- Les couches de 1 à 3 sont celles les plus proches du matériel (du physique).
+- Les couches de 5 à 7 sont celles les plus proches du logiciel
+(de l'utilisateur).
+- La couche 4, représente le point de jonction des autres couches.
+
+| Couches     | Type de donnée | Rôles | Exemple | Exemples | Protocoles |
+|-------------|----------------|-------|---------|----------|------------|
+| Application | Message        | Gèrer le transport des informations entre programmes. | Logiciels de messagerie, de navigation, etc... | SMTP / POP / HTTP / TELNET / FTP|
+| Présentation | Message       | Mise en forme des données, l'encryptage, la compression | Passerelles d'applications | SMTP / POP / HTTP / TELNET / FTP |
+| Session     | Message | Etablissement, gestion et coordination des communications, synchronisation du dialogue, définition du mode de transmission. | Passerelles d'applications | SMTP / POP / HTTP / TELNET / FTP |
+| Transport   | Segment | La segmentation des messages en paquets. | Passerelles de transport | UDP, TCP, SPX, NetBEUI, NETBIOS |
+| Réseaux     | Paquet | Traitement et transfert de paquet | Le routeur | IP, IPX, ARP, RARP, ICMP |
+| Liaison de données | Définit l'interface avec la carte réseaux. | Trame | Les ponts; commutateurs ou switch et le routeur | HDLC, LAP-B, LAP-D |
+| Physique    | Bit | Gère les connexions matérielles et définit la façon dont les données sont converties en signaux numériques. | Les câbles, les connecteurs, etc..., adaptateurs, répéteurs et concentrateurs. | |
+
+#### Comparaison avec le modèle TCP/IP
+
+| N | Couche OSI         | Couche TCP/IP    |
+|---|--------------------|------------------|
+| 7 | Application        | Application      |
+| 6 | Présentation       | Application      |
+| 5 | Session            | Application      |
+| 4 | Transport          | Transport        |
+| 3 | Réseaux            | Internet         |
+| 2 | Liaison de données | Accès réseaux    |
+| 1 | Pysique            | Accès réseaux    |
+
+#### Comparaisons avec les protocoles
+
+| N | Couche OSI         | Couche TCP/IP    | Protocoles |
+|---|--------------------|------------------|------------|
+| 7 | Application        | Application      | SMTP / POP / TELNET / FTP/ HTTP |
+| 6 | Présentation       | Application      | SMTP / POP / TELNET / FTP/ HTTP |
+| 5 | Session            | Application      | SMTP / POP / TELNET / FTP/ HTTP |
+| 4 | Transport          | Transport        | TCP / UDP / SPX |
+| 3 | Réseaux            | Internet         | IP / ARP / ICMP / RARP / IPX |
+| 2 | Liaison de données | Accès réseaux    | Accès réseaux |
+| 1 | Pysique            | Accès réseaux    | Accès réseaux |
+
 
 
 
