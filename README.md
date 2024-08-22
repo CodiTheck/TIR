@@ -364,7 +364,7 @@ Le modèle OSI est organisé en 07 couches qui sont :
 - La couche 4, représente le point de jonction des autres couches.
 
 | Couches     | Type de donnée | Rôles | Exemples | Protocoles |
-|-------------|----------------|-------|----------|----------|------------|
+|-------------|----------------|-------|----------|----------|
 | Application | Message        | Gèrer le transport des informations entre programmes. | Logiciels de messagerie, de navigation, etc... | SMTP / POP / HTTP / TELNET / FTP|
 | Présentation | Message       | Mise en forme des données, l'encryptage, la compression | Passerelles d'applications | SMTP / POP / HTTP / TELNET / FTP |
 | Session     | Message | Etablissement, gestion et coordination des communications, synchronisation du dialogue, définition du mode de transmission. | Passerelles d'applications | SMTP / POP / HTTP / TELNET / FTP |
